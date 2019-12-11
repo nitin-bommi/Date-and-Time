@@ -2,7 +2,7 @@
 
 #### Many operations can be performed on date and time.
 
-#### Python provides a module `datetime` which contains many classes which include :-
+__Python provides a module `datetime` which contains many classes which include__ :-
 + `date`
 + `time`
 + `calendar`
@@ -24,3 +24,8 @@ Usually, while importing the module, we import the class also.
 from datetime import date
 ```
 
+__Basic operations like__
+* Comparison
+* Arithmetic operations
+
+can be performed.
