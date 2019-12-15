@@ -27,5 +27,6 @@ from datetime import date
 __Basic operations like__
 * Comparison
 * Arithmetic operations
+* Date difference.
 
 can be performed.
