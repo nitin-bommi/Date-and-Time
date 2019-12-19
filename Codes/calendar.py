@@ -24,3 +24,15 @@ print(s)
 for i in c.itermonthdays(2019, 12):
     print(i)
 # itermonthdates() will return the dates in a particular month in a year.
+
+# To find future days and dates.
+print("Meetings will be on first Fridays of each month:-")
+for m in range(1,13):
+    cal = calendar.monthcalendar(2019, m)
+    w1, w2 = cal[0], cal[1]
+    if(w1[calendar.FRIDAY]==0):
+        meetday = w2[calendar.FRIDAY]
+    else:
+        meetday = w1[calendar.FRIDAY]
+        
+    print("%s - %2d" % (calendar.month_name[m], meetday))
